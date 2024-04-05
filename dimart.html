@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        @media only screen and (min-width:100px) {
+            body{
+                background-color:rgb(108, 194, 108);
+            }
+        }
+        @media only screen and (min-width:601px) and (max-width:1024px) {
+            body{
+                background-color:rgb(201, 231, 201);
+            }
+        }
+        @media only screen and (min-width:1025px){
+            body{
+                background-color:white;
+            }
+        }
+        h1{
+            font-style: italic;
+            font-size: 40px;
+            color:white;
+            background-color: green;
+            width: 30%;
+        }
+        input{
+            font-size: 30px;
+            width: 100%;
+        }
+        button:hover{
+            font-size: 30px;
+            color:white;
+            transition-duration: 1s;
+            background-color: green;
+        }
+        center{
+            font-size: 25px;
+            color: green;
+        }
+        #qq{
+            width: 20%;
+            height:20px;
+            font-size: 20px;
+        }
+        .ww{
+            color:black;
+        }
+        #image{
+            width: 100%;
+            height:450px;
+            border: 5px solid white;
+        }
+        #needs{
+            display: flex;
+             justify-content: space-around;
+             flex-wrap: wrap;
+             row-gap: 30px;
+        }
+        #needs>div{
+            width:150px;
+            height: 180px;
+            font-size: 23px;
+        }
+        #saleitem{
+            display: flex;
+             justify-content: space-around;
+             flex-wrap: wrap;
+             row-gap: 80px;
+        }
+        #saleitem>div{
+            width: 150px;
+            height: 180px
+        }
+        #item{
+            width: 150px;
+            height: 150px;
+        }
+        #pin{
+            background-color:rgb(214, 241, 174);
+            font-style: italic;
+        }
+        #categories{
+            width: 100%;
+            height: 30px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            row-gap: 10px;
+            column-gap: 18px;
+        }
+        #categories>div{
+            color: green;
+        }
+        #nove{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            row-gap: 20x;
+        }
+        #liquid{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+        #oil{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #hhh{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+   <div>
+    <div>
+        <h1>Dimart ready</h1>
+    </div>
+    <hr>
+    <div>
+       <input id="pin" placeholder="Aapko kya chaiye?Eany item search to order now">
+       <button>search</button>
+    </div>
+    <hr>
+    <div>
+        <div id="qq"><input id="pin" type="Enter your pin code" placeholder="enter your pin code" required>
+         <button>Enter</button></div>
+        <center> Earliest home Delivery time slot available
+        <div class="ww"> Eany day 07:00Am - 09:30Am</div>
+    </center>
+</div>
+<hr>
+<br>
+<div id="categories">
+<div>All categories</div>
+ <div>Dmart Grocery</div>
+ <div> value packs</div>
+ <div>ready to cook</div>
+ <div>Home Appliances</div>
+ <div>Cookware</div>
+ <div>Serveware</div>
+ <div>Cleaners</div>
+ <div>Detergent & fabric care</div>
+</div>
+
+
+<br>
+<hr>
+<div id="image"><img id="image" src="1feb24-crsl-dg.webp"></div>
+<hr>
+<div id="needs">
+    <div><img src="16jan23-popularcat-poojaneeds.png">pooja needs</div>
+    <div><img src="1oct23-popularcat-disposablecutlery.png">cutlery</div>
+    <div><img src="1oct23-popularcat-lugguage.png">lugguage</div>
+    <div><img src="12sept23-popularcat-chocolates.png">chocolates</div>
+    <div><img src="12sept23-popularcat-softdrinks.png">softdrinks</div>
+    <div><img src="12sept23-popularcat-tea1.png">tea</div>
+    <div><img src="1oct23-popularcat-blankets.png">blankets</div>
+</div>
+<hr>
+<div id="saleitem">
+    <div> Mrp-179rs<img id="item" src="120000135-11494-vt.png"></div>
+    <div> Mrp-219rs<img id="item" src="120000656-96003-vt (1).png"></div>
+    <div> Mrp-249rs<img id="item" src="120000665-98507-vt.png"></div>
+    <div> Mrp-149rs<img id="item" src="150000354-13114.png"></div>
+    <div> Mrp-129rs<img id="item" src="150000376-13136.png"></div>
+    <div> Mrp-396rs<img id="item" src="150000944-290001-tideplusdetergentpowder-jasmine&rose-6kgs (1).png"></div>
+</div>
+    <hr>
+   <div id="nove">
+    <div><img src="9nove22-3cw-breakfast.jpg"></div>
+    <div><img src="1may23-3cw-homedecor.jpg"></div>
+    <div><img src="1may23-3cw-stationery.jpg"></div>
+   </div>
+   <hr>
+   <div id="liquid">
+    <div><img src="Screenshot 2024-02-08 154007.png"></div>
+    <div><img src="Screenshot 2024-02-08 154028.png"></div>
+    <div><img src="Screenshot 2024-02-08 154048.png"></div>
+    <div><img src="Screenshot 2024-02-08 154108.png"></div>
+   </div>
+   <hr>
+    <div><img id="oil" src="Screenshot 2024-02-09 143050.png"></div>
+   <hr>
+   <div><img id="hhh" src="Screenshot 2024-02-09 143930.png"></div>
+   <hr>
+   <div><img id="hhh" src="1jan24-crsl-serveware.webp"></div>
+   <hr>
+   <div><img id="hhh" src="Screenshot 2024-02-09 144000.png"></div>
+   <hr>
+   <div><img id="hhh" src="7nove23-crsl-brand-mcaffeine.webp"></div>
+   <hr>
+   <div><img id="hhh" src="1jan24-curated-halfprice.jpg"></div>
+   <hr>
+   <div><img id="hhh" src="1oct23-curated-halfprice-indo.jpg"></div>
+
+
+   </div>
+</body>
+</html>
